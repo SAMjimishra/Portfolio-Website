@@ -1,0 +1,78 @@
+[{
+        "name": "TailwindCSS",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+    },
+
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "PHP",
+        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "Kali Linux",
+        "icon": "https://img.icons8.com/color/48/000000/linux.png"
+    },
+    {
+        "name": "Parrot OS",
+        "icon": "https://img.icons8.com/color/48/parrot.png"
+    },
+    {
+        "name": "Wireshark",
+        "icon": "https://img.icons8.com/color/48/wireshark.png"
+    },
+    {
+        "name": "Metasploit",
+        "icon": "https://img.icons8.com/ios-filled/48/fa314a/hacker.png"
+    },
+    {
+        "name": "Burp Suite",
+        "icon": "https://img.icons8.com/fluency/48/000000/bug.png"
+    },
+    {
+        "name": "Nmap",
+        "icon": "https://img.icons8.com/ios-filled/48/4caf50/network.png"
+    },
+    {
+        "name": "OWASP",
+        "icon": "https://img.icons8.com/ios-filled/48/ff9900/security-configuration.png"
+    },
+
+    {
+        "name": "Cybersecurity",
+        "icon": "https://img.icons8.com/ios-filled/48/007acc/security-shield-green.png"
+    },
+
+
+    {
+        "name": "SOC Analyst Tools",
+        "icon": "https://img.icons8.com/color/48/security-checked.png"
+    }
+]

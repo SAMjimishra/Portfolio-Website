@@ -1,0 +1,360 @@
+/* Cyber 404 CSS - place as /assets/css/404.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@300;600&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    background: radial-gradient(circle at 20% 20%, #07070a 0%, #000 60%);
+    color: #b8ffd6;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Share Tech Mono", monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+}
+
+
+/* container */
+
+.cyber-404-wrap {
+    position: relative;
+    min-height: 100vh;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+/* topbar */
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    opacity: .95;
+}
+
+.topbar .logo {
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: flex;
+    gap: .6rem;
+    align-items: center
+}
+
+.topbar .logo i {
+    color: #ffda00
+}
+
+.topbar .status {
+    background: linear-gradient(90deg, #ff4d4d, #ff6b6b);
+    padding: .35rem .7rem;
+    border-radius: 6px;
+    color: #000;
+    font-weight: 700;
+    box-shadow: 0 6px 18px rgba(255, 75, 75, .06);
+}
+
+
+/* center layout */
+
+.center {
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+    margin-top: 22px;
+}
+
+
+/* left big area */
+
+.left-panel {
+    flex: 1;
+    min-width: 360px
+}
+
+.big-code {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 10rem;
+    line-height: 1;
+    color: #ff4040;
+    text-shadow: 0 0 12px rgba(255, 64, 64, .25);
+    letter-spacing: 6px;
+    margin-bottom: 6px;
+    position: relative;
+}
+
+
+/* glitch effect */
+
+.glitch {
+    position: relative;
+    display: inline-block
+}
+
+.glitch::before,
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.glitch::before {
+    left: 2px;
+    text-shadow: -2px 0 #00e6ff;
+    clip-path: inset(0 0 65% 0);
+    opacity: .8;
+    animation: gl1 2s infinite linear
+}
+
+.glitch::after {
+    left: -2px;
+    text-shadow: -2px 0 #ff00e6;
+    clip-path: inset(35% 0 0 0);
+    opacity: .8;
+    animation: gl2 2.3s infinite linear
+}
+
+@keyframes gl1 {
+    0% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(6px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes gl2 {
+    0% {
+        transform: translateY(0)
+    }
+    40% {
+        transform: translateY(-6px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+
+/* subtitle and alert row */
+
+.sub {
+    font-weight: 700;
+    color: #ffb3b3;
+    margin-bottom: 14px
+}
+
+.alert-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 12px 0
+}
+
+.alert-badge {
+    background: #ff7a00;
+    color: #fff;
+    padding: .6rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.alert-badge i {
+    font-size: 1.2rem
+}
+
+.alert-text {
+    color: #ffd6d6;
+    font-weight: 600
+}
+
+
+/* CTAs */
+
+.cta {
+    margin-top: 18px;
+    display: flex;
+    gap: 12px
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, .06);
+    transition: all .22s
+}
+
+.btn.primary {
+    background: #ff4040;
+    color: #fff;
+    box-shadow: 0 8px 30px rgba(255, 64, 64, .08)
+}
+
+.btn.ghost {
+    background: transparent;
+    color: #9df7d6;
+    border: 1px solid rgba(157, 247, 214, .12)
+}
+
+.btn:hover {
+    transform: translateY(-4px)
+}
+
+
+/* right panel terminal */
+
+.right-panel {
+    width: 460px;
+    max-width: 46%;
+    min-width: 320px
+}
+
+.terminal {
+    background: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .45));
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .6);
+    border: 1px solid rgba(255, 255, 255, .03)
+}
+
+.terminal-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, .02)
+}
+
+.terminal-header .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.terminal-header .dot.red {
+    background: #ff5f56
+}
+
+.terminal-header .dot.yellow {
+    background: #ffbd2e
+}
+
+.terminal-header .dot.green {
+    background: #27c93f
+}
+
+.term-title {
+    margin-left: auto;
+    color: #9df7d6;
+    font-weight: 700
+}
+
+.term-body {
+    padding: 14px
+}
+
+.term-body pre {
+    background: transparent;
+    color: #bfeee0;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px dashed rgba(157, 247, 214, .06)
+}
+
+.typing {
+    margin-top: 12px;
+    color: #d9fff0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.cursor {
+    font-weight: 900;
+    color: #00ff9d;
+    animation: blink 1s steps(2) infinite
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0
+    }
+}
+
+
+/* scan lines overlay */
+
+.scan-lines {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient( 180deg, rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.012) 1px, rgba(0, 0, 0, 0) 2px);
+    mix-blend-mode: overlay;
+    animation: scan 6s linear infinite;
+}
+
+@keyframes scan {
+    0% {
+        transform: translateY(-100%)
+    }
+    100% {
+        transform: translateY(100%)
+    }
+}
+
+
+/* footer note */
+
+.footer-note {
+    position: absolute;
+    left: 28px;
+    bottom: 18px;
+    color: rgba(189, 255, 227, .6);
+    font-size: .95rem
+}
+
+
+/* responsive */
+
+@media (max-width:980px) {
+    .center {
+        flex-direction: column-reverse;
+        align-items: center
+    }
+    .right-panel {
+        width: 100%;
+        max-width: none
+    }
+    .big-code {
+        font-size: 7.5rem
+    }
+}

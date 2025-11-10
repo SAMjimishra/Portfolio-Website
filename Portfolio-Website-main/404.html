@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>⚠️ 404 — Access Denied</title>
+
+  <!-- Use relative or absolute path depending on your hosting.
+       If your assets folder is at site root use /assets/..., otherwise use ./assets/... -->
+  <link rel="stylesheet" href="/assets/css/404.css" />
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-png" id="favicon" />
+
+  <!-- font-awesome for icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+
+  <div class="cyber-404-wrap">
+    <div class="topbar">
+      <div class="logo"><i class="fas fa-shield-alt"></i> SAM — SEC</div>
+      <div class="status">INTRUSION DETECTED</div>
+    </div>
+
+    <div class="center">
+      <div class="left-panel">
+        <div class="big-code glitch" data-text="404">404</div>
+        <div class="sub">ACCESS DENIED — FILE NOT FOUND</div>
+
+        <div class="alert-row">
+          <div class="alert-badge"><i class="fas fa-exclamation-triangle"></i></div>
+          <div class="alert-text">Possible malicious probe or broken link. Trace started...</div>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="index.html#home"><i class="fas fa-home"></i> Return to Safe Zone</a>
+          <a class="btn ghost" href="index.html#contact"><i class="fas fa-flag"></i> Report Issue</a>
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <div class="terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <div class="term-title">TRACE LOG — LIVE</div>
+          </div>
+          <div class="term-body">
+            <pre id="trace">
+Initializing trace...
+Probing route: /requested/path
+Response: 404 Not Found
+Firewall: ACTIVE
+SIEM: pushing event to queue...
+</pre>
+            <div class="typing">
+              <span class="type-text">This page is either encrypted, moved, or doesn’t exist.</span><span class="cursor">█</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scan-lines"></div>
+    <div class="footer-note">If this is unexpected, please report the issue so we can investigate.</div>
+  </div>
+
+  <script src="/assets/js/404.js"></script>
+</body>
+</html>

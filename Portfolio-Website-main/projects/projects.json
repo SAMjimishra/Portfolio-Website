@@ -1,0 +1,21 @@
+[{
+        "name": "Career-Tarot",
+        "desc": "Career Tarot is a web-based platform designed to help students explore their ideal career paths by combining their education, skills, interests, and future goals.",
+        "image": "https://static1.bigstockphoto.com/5/4/1/large1500/145838009.jpg",
+        "category": "live",
+        "links": {
+            "view": "https://career-tarot.vercel.app/",
+            "code": "https://github.com/SAMjimishra/Career-Tarot"
+        }
+    },
+    {
+        "name": "🛡️ Tracker Blocker Extension",
+        "desc": "A lightweight Chrome extension that blocks trackers, ads, and analytics — so you can browse privately and freely.",
+        "image": "https://raw.githubusercontent.com/SAMjimishra/Tracker-Blocker-Extension/main/tracker-blocker-extension/SS/Screenshot%202025-09-07%20232637.png",
+        "category": "mini",
+        "links": {
+            "view": "",
+            "code": "https://github.com/SAMjimishra/Tracker-Blocker-Extension"
+        }
+    }
+]
