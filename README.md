@@ -1,6 +1,6 @@
 # 🛡️ Sameer Mishra —  Portfolio  
 
-Welcome to my personal ** Portfolio Website**, where I showcase my journey, projects, and passion for Cybersecurity & Digital Defense.  
+Welcome to my personal **Portfolio Website**, where I showcase my journey, projects, and passion for Cybersecurity & Digital Defense.  
 This site is designed with a professional dark theme and red-alert cybersecurity touch to reflect my field of expertise.  
 
 🌐 **Live Demo:** [Visit Portfolio](https://whosam.netlify.app)  
