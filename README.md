@@ -144,8 +144,8 @@ Includes glowing red animation, glitch effects, and a **Return to Safe Zone** bu
 ## 👨‍💻 Author
 
 **Sameer Mishra**  
-💼 Cybersecurity Enthusiast | Full-Stack Developer | SOC Trainee  
-📍 Pune, India  
+💼 Cybersecurity Enthusiast | Network Defender| SOC Analyst  
+📍 Lucknow, India  
 📧 [samishra.0300@gmail.com](mailto:samishra.030@gmail.com)  
 🌐 [Portfolio Website](https://whosam.netlify.app)  
 🐙 [GitHub](https://github.com/SAMjimishra) | 💼 [LinkedIn](https://www.linkedin.com/in/sameer-mishra-2558572ba)
